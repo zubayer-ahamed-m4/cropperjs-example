@@ -1,3 +1,39 @@
 img {
 	max-width: 100%; /* This rule is very important, please do not ignore this! */
 }
+
+.cropper-image-container{
+	background: #DDD;
+	padding: 0px;
+}
+
+.cropper-image-options{
+	padding: 0px;
+	padding-left: 10px;
+	box-sizing: border-box;
+	text-align: center;
+}
+
+.cropped-imaged-preview{
+	width: 100%;
+	height: 150px;
+	padding: 0px;
+	border: 1px solid red;
+	margin-bottom: 10px;
+	overflow: hidden;
+	background: #DDD;
+	float: right;
+}
+
+.cropped-imaged-preview > img{
+	max-width: 100% !important;
+	position: relative;
+}
+
+.optn-group-btn{
+	margin-top: 10px;
+}
+.optn-group-checkbox{
+	margin-top: 10px;
+	text-align: left;
+}

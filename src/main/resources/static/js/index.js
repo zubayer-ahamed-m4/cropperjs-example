@@ -4,6 +4,7 @@ $(document).ready(function(){
 
 	$image.cropper({
 		//aspectRatio: 16 / 9,
+		preview: ".cropped-imaged-preview",
 		crop(event){
 //			console.log("start - x : " + event.detail.x);
 //			console.log("start - y : " + event.detail.y);
